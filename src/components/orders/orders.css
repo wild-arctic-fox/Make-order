@@ -1,0 +1,46 @@
+.prod-list td{
+	padding: 0 15px;
+}
+
+
+.suggest-ul{
+	background: transparent;
+	max-height: 100px;
+	padding-inline-start: 0;
+	overflow-y: auto;
+}
+.suggest-ul li{
+	background: white;
+	padding: 3px 10px;
+	border: none;
+	color: black;
+	list-style: none;
+}
+.suggest-ul li:hover{
+	background: #8c8c8c;
+	cursor: pointer;
+}
+
+.suggest-ul li:last-child{
+	border-radius:0% 0% 7% 6% / 62% 0% 100% 100%;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 3px;
+	height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #0000AE;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #00AEAE;
+}

@@ -1,0 +1,21 @@
+.close-button{
+	position: relative;
+	left: 45%;
+}
+body {
+	background-size: 400% 400% ;
+	background: url("https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?cs=srgb&dl=dark-starry-sky-1694000.jpg&fm=jpg") fixed;
+	animation: gradient 300s linear infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
